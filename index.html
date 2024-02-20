@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Timer</title>
+</head>
+
+<body class="bg-gray-900">
+
+
+    <header class="bg-gray-900 ">
+        <div class="container text-center py-10 m-auto">
+            <section class="">
+                <h1 class="text-gray-300 text-4xl my-10">Set Yout Time</h1>
+            </section>
+            <section class="flex justify-center items-center ">
+                <div class="hour m-6 flex flex-col">
+                    <span class="text-yellow-500 text-bold text-2xl mb-5">Hour</span>
+                    <span class="text-gray-300 text-xl" id="hours">00</span>
+                </div>
+                <div class="mint m-6 flex flex-col">
+                    <span class="text-yellow-500 text-bold text-2xl mb-5">mint</span>
+                    <span class="text-gray-300 text-xl" id="mint">00</span>
+                </div>
+                <div class="sec m-6 flex flex-col">
+                    <span class="text-yellow-500 text-bold text-2xl mb-5">Second</span>
+                    <span class="text-gray-300 text-xl" id="seconds">00</span>
+                </div>
+            </section>
+            <section class="flex justify-center items-center ">
+                <form method="post" action="#" class="">
+                <div class="timeOptions flex ">
+                    <div class="hour m-6 " id="hourSection">
+                    <h1 class="text-gray-300 text-xl pt-10 pb-4">Hours</h1>
+                    <select name="hour" id="hourValue" name="country" autocomplete="country-name" class=" hourValue block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+                        <option value="0">defult</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="min m-6 " id="mintSection">
+                    <h1 class="text-gray-300 text-xl pt-10 pb-4">Minuts</h1>
+                    <select name="mint" id="miutValue" name="country" autocomplete="country-name" class=" miutValue block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+                        <option value="0">defult</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+    
+            </div>
+                <div class="submitBtn my-10">
+                    <button type="button" id="btn" class="bg-gray-700 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded">Set Time</button>
+                   
+                </div>
+            </form>
+            </section>
+            <section></section>
+        </div>
+    </header>
+    <audio src="" autoplay id="audio"></audio>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/Script.js"></script>
+</body>
+</html>
